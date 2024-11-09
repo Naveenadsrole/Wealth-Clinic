@@ -1,0 +1,108 @@
+.bgFinalExplore {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bgImageCard {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-image: url(https://www.wealth-clinic.com/property_media/43821691649499.jpg);
+    background-size: cover;
+}
+
+.bgImageCard1 {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-image: url(https://www.wealth-clinic.com/property_media/67581703666273.jpg);
+    background-size: cover;
+}
+
+.bgImageCard2 {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-image: url(https://www.wealth-clinic.com/property_media/23321696312251.jpg);
+    background-size: cover;
+}
+
+.bgImageCard3 {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-image: url(https://www.wealth-clinic.com/project_category_media/20921695721064.webp);
+    background-size: cover;
+}
+
+.card {
+    position: relative;
+    width: 17.25rem;
+    height: 400px;
+    /* background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-image: url(https://www.wealth-clinic.com/property_media/43821691649499.jpg);
+    background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    left: -5px;
+    margin: auto;
+    width: 280px;
+    height: 410px;
+    border-radius: 20px;
+    background: linear-gradient(-45deg, #ef750e 0%, #ef750e 100%);
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #ef750e 0%, #ef750e 100%);
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+}
+
+.headingExplore {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card p:not(.headingExplore) {
+    font-size: 14px;
+}
+
+.card p:last-child {
+    color: #e81cff;
+    font-weight: 600;
+}
+
+.card:hover::after {
+    filter: blur(30px);
+}
+
+.card:hover::before {
+    transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
+}
+
+.exploreViewsDetailsBtn {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 9rem;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+}

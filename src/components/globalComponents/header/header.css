@@ -1,0 +1,131 @@
+.main {
+    width: 100%;
+    background: url("https://a0.muscache.com/im/pictures/miso/Hosting-603281858277532903/original/92af7b7e-0b55-41f4-b4a7-ffab7ee6125d.jpeg?im_w=720");
+    background: linear-gradient(to right, black 0%, orange 50%, white 100%);
+}
+
+.header {
+    top: 5px;
+    z-index: 9999999;
+    background: transparent;
+    /* background: rgba(0, 0, 0, 1); */
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 85%;
+    /* color: white; */
+    border-radius: 5rem;
+    text-transform: capitalize;
+
+
+    &.header img[alt] {
+        /* background: transparent; */
+        width: 122px;
+        /* transform: scale(1.1, 1.4); */
+        /* height: 60px; */
+        padding: 5px;
+    }
+}
+
+.header_active_Darken {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+}
+
+.logoContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding-top: 2rem; */
+}
+
+.menu {
+    padding: 0px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.headerSearchBtn {
+    border: none;
+    border-radius: 1.5rem;
+    width: 150px;
+    padding: 0.5rem;
+    background-color: var(--global-text-color);
+    color: #f7f7f7;
+}
+
+.headerProfile {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 0.4rem 0 0 0;
+    border-radius: 50%;
+}
+
+.menuBtn {
+    background: transparent;
+    font: 800;
+    width: 34px;
+    padding: 0.4rem;
+    padding-left: 1px;
+}
+
+.header-btn {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+}
+
+.header-btn a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.text-dark.navbar-brand:hover {
+    color: red;
+}
+
+.eventDeco {
+    text-decoration: none;
+}
+
+.blogsDeco {
+    text-decoration: none;
+}
+
+.header-logo {
+    margin-left: 1.5rem;
+}
+.bgGrouping{
+    display: flex;
+    border-radius: 16px;
+    padding: 8px;
+    min-width: 50px;
+    width: 103px;
+    justify-content: center;
+}
+img.acn {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+img.wis {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+img.ser {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.supergroup{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(239, 117, 15, 0.5);
+    border-radius: 13px;
+}
+i.bi.bi-list {
+    font-size: 19px;
+}

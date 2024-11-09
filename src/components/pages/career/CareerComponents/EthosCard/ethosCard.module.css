@@ -1,0 +1,39 @@
+.ethosCardContainer {
+    width: 260px;
+    height: auto;
+    background-color: #ee8c64;
+    border-radius: 1.5rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.ethosCardContainer:hover {
+    background-color: #ef750f;
+    cursor: pointer;
+    border-radius: 0.75rem;
+    transition: border-radius 2s ease-in-out;
+}
+
+.ethosIcon {
+    margin-top: 10px;
+    width: 70px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 27%;
+    padding: 11px;
+}
+
+.ethosTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.ethosDescription {
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+
+}

@@ -1,0 +1,10 @@
+.cityPageForm {
+    position: sticky;
+    top: 120px;
+}
+
+.projectCount {
+    font-size: .75rem;
+    font-weight: 450;
+    color: #6c757d
+}

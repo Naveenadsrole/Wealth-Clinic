@@ -1,0 +1,24 @@
+.QuerySectionTemplate {
+  padding: 2rem 0;
+  margin: 2rem 0;
+  background: rgba(0, 0, 0, 0.7) url("../../../assets/queryBackground.jpg");
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fixedHeight {
+  background-color: #fff;
+  border-radius: .75rem;
+  display: flex;
+  align-items: center;
+  max-height: 840px;
+  height: 630px;
+}
+
+.enquiryFormTitle {
+  padding-left: 4.5rem;
+}

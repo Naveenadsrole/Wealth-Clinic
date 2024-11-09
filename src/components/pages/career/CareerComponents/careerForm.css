@@ -1,0 +1,19 @@
+.career-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+.career-form form {
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.career-form button {
+    font-weight: 600;
+}

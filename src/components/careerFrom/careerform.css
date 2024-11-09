@@ -1,0 +1,22 @@
+
+  
+  .form-label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .btn-primary {
+    background-color: #ef750f;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #d66307;
+  }
+  .bgDesgin{
+    background-color: #f5f5dc;
+    padding: 50px;
+    border-radius: 13px;
+  }
