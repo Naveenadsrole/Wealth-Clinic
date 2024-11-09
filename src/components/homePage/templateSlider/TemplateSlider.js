@@ -42,7 +42,7 @@ const TemplateSlider = ({ searchBar, text, style, height, textImg }) => {
             ) : null}
 
             <p className="text-white text-lg-center fs-lg">
-              The Most Followed Real Estate Brand In The India
+              ADSROLE -----
             </p>
           </div>
         </div>
