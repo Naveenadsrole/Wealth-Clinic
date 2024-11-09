@@ -94,8 +94,6 @@ const HomePage = () => {
         {/* <NewExplore /> */}
         <FinalExplore />
       </div>
-      <AdvantageSection />
-      <QuerySectionTemplate />
       {/* <GoogleReview /> */}
       <StickySocialIcons />
       <Disclaimer />
