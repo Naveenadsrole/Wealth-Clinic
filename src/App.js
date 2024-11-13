@@ -28,8 +28,7 @@ import Blog from "./components/pages/blogPage/Blogs";
 import BlogCards from "./components/pages/blogPage/blogsComponents/BlogCards";
 import BlogOverview from "./components/pages/blogOverview/BlogOverview";
 import PropertyDetails from "./components/pages/propertyDetails/PropertyDetails";
-// import Template from "./components/template/Template";
-// import Header from "./components/header/Header";
+
 
 import URL from "./assets/constants/url";
 import "./App.css";
@@ -47,7 +46,7 @@ function App() {
     </>
   );
 }
-
+// nice
 export default App;
 
 function Routings() {
